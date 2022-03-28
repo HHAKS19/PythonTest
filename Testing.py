@@ -1,1 +1,4 @@
-print('py')
+class Testing():
+    print('python')
+
+Testing()
