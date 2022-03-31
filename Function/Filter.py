@@ -1,7 +1,7 @@
 lst = [1,2,7,23,38,55,62,88,99,102,122,135,204]
 
 def EvenCheck(num):
-    if num % 2 == 0:
+    if num > 100 and num < 200:
         return True
     else:
         return False
