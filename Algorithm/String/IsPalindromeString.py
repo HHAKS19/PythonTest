@@ -3,7 +3,8 @@ def CheckPalin(string):
     if string != reversed_str:
         print('Sorry.It\'s not palindrome')
     else:
-        print('Yes.{} is palindrome'.format(string))
+        # print('Yes.{} is palindrome'.format(string))
+        print(f'Yes,{string} is palindrome.')
 string = input('Enter any string: ')
 CheckPalin(string)
 
