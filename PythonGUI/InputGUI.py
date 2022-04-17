@@ -1,5 +1,6 @@
 from tkinter import *
 from random import choice
+
 app = Tk()
 app.title('Color Picker')
 app.geometry('300x200')
@@ -12,8 +13,11 @@ def show():
     Info = (info.get()).split(',')  
     msg = Label(app, text = choice(Info) )
     msg.pack()
-
+    
 b = Button(app, text = 'Choose', command= show)
 b.pack()
+
+quitb = Button(app, text = 'Cancel', command= app.quit)
+quitb.pack()
 
 app.mainloop()
